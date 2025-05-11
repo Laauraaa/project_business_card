@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "prebuild": "npm install",
     "start dev": "ng serve",
     "start": "serve -s dist/project-business-card",
     "build": "node node_modules/@angular/cli/bin/ng build --configuration production",
