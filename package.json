@@ -5,7 +5,7 @@
     "ng": "ng",
     "prebuild": "npm install",
     "start dev": "ng serve",
-    "start": "serve -s dist/project_business_card",
+    "start": "serve -s dist/project_business_card -l $PORT",
     "build": "node node_modules/@angular/cli/bin/ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
