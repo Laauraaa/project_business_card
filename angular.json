@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "project_business_card": {
+    "project_weather_forecast": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/project_business_card",
+            "outputPath": "dist/project_weather_forecast",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "project_business_card:build:production"
+              "buildTarget": "project_weather_forecast:build:production"
             },
             "development": {
-              "buildTarget": "project_business_card:build:development"
+              "buildTarget": "project_weather_forecast:build:development"
             }
           },
           "defaultConfiguration": "development"
